@@ -7,14 +7,17 @@
  * ********************************************************
  */
 import 'package:flutter/cupertino.dart';
+import 'package:flutter_base_project/ui/new_screen/new_screen.dart';
 import 'package:flutter_base_project/ui/splash/splash.dart';
 
 class Routes {
   static const String splash = '/';
+  static const String newScreen = '/newScreen';
 
   static Map<String, WidgetBuilder> getRoute() {
     return <String, WidgetBuilder>{
       splash: (_) => const Splash(),
+      newScreen: (_) => const NewScreen(),
     };
   }
 }

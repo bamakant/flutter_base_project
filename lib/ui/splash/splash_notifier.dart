@@ -8,6 +8,7 @@
  */
 
 import 'package:flutter/material.dart';
+import 'package:flutter_base_project/config/route.dart';
 import 'package:flutter_base_project/utils/base/widget_notifier.dart';
 
 class SplashNotifier extends WidgetNotifier {
@@ -17,10 +18,24 @@ class SplashNotifier extends WidgetNotifier {
   ///where image/poster can be fetch from url like firebase remote config
   String remoteConfigValue = '';
 
+  ///in case you want different waiting based on default splash screen
+  ///or network splash screen
+  int waitingTimeInSec = 1;
+
+
   SplashNotifier(this.context);
 
   @override
   void init() {
-    // navigateToNewScreen()
+    navigateToNewScreen();
+  }
+
+
+  void navigateToNewScreen() {
+    Future.delayed(
+        Duration(seconds: waitingTimeInSec),
+            () =>
+            Navigator.of(context).pushNamedAndRemoveUntil(
+                Routes.newScreen, (Route<dynamic> route) => false));
   }
 }

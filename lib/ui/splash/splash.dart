@@ -50,7 +50,7 @@ class _SplashState extends State<Splash> {
                       )
                     : const Center(
                         child: Text(
-                          'Flutter Base App',
+                          'Welcome Bama Kant !!!',
                           style: TextStyle(
                               fontSize: 24,
                               fontFamily: FontType.AzoSansBold,
