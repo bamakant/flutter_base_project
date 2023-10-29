@@ -8,7 +8,7 @@
  */
 
 import 'package:flutter/material.dart';
-import 'package:flutter_base_project/utils/styles/color/theme_color.dart';
+import 'package:flutter_base_project/theme/color/theme_color.dart';
 
 class KantScaffold extends StatefulWidget {
   final PreferredSizeWidget? appBar;

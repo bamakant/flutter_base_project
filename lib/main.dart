@@ -4,8 +4,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_base_project/config/app_instance.dart';
 import 'package:flutter_base_project/config/route.dart';
-import 'package:flutter_base_project/utils/styles/color/theme_color.dart';
 import 'package:flutter_base_project/utils/utils.dart';
+
+import 'theme/color/theme_color.dart';
 
 Future<void> main() async {
   runZonedGuarded(() async {

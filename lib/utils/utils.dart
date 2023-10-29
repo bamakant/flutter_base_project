@@ -11,8 +11,8 @@ import 'dart:async';
 
 import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
+import 'package:flutter_base_project/theme/color/theme_color.dart';
 import 'package:flutter_base_project/utils/print_utils.dart';
-import 'package:flutter_base_project/utils/styles/color/theme_color.dart';
 import 'package:flutter_web_browser/flutter_web_browser.dart';
 
 

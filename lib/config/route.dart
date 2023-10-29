@@ -7,8 +7,8 @@
  * ********************************************************
  */
 import 'package:flutter/cupertino.dart';
-import 'package:flutter_base_project/ui/new_screen/new_screen.dart';
-import 'package:flutter_base_project/ui/splash/splash.dart';
+import 'package:flutter_base_project/screens/new_screen/new_screen.dart';
+import 'package:flutter_base_project/screens/splash/splash.dart';
 
 class Routes {
   static const String splash = '/';

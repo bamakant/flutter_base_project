@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_base_project/utils/base/kant_scaffold.dart';
+import 'package:flutter_base_project/base/kant_scaffold.dart';
 
 class NewScreen extends StatefulWidget {
   const NewScreen({super.key});

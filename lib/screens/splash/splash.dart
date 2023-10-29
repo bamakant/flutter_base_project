@@ -7,9 +7,9 @@
  * ********************************************************
  */
 import 'package:flutter/material.dart';
-import 'package:flutter_base_project/ui/splash/splash_notifier.dart';
-import 'package:flutter_base_project/utils/styles/color/theme_color.dart';
-import 'package:flutter_base_project/utils/styles/font/font_type.dart';
+import 'package:flutter_base_project/screens/splash/splash_notifier.dart';
+import 'package:flutter_base_project/theme/color/theme_color.dart';
+import 'package:flutter_base_project/theme/font/font_type.dart';
 import 'package:provider/provider.dart';
 
 class Splash extends StatefulWidget {

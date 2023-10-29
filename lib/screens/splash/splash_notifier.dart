@@ -8,8 +8,8 @@
  */
 
 import 'package:flutter/material.dart';
+import 'package:flutter_base_project/base/widget_notifier.dart';
 import 'package:flutter_base_project/config/route.dart';
-import 'package:flutter_base_project/utils/base/widget_notifier.dart';
 
 class SplashNotifier extends WidgetNotifier {
   final BuildContext context;
