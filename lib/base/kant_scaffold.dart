@@ -18,17 +18,20 @@ class KantScaffold extends StatefulWidget {
   final Widget? bottomNavigationBar;
   final Widget? bottomSheet;
   final Widget? body;
+  final Widget? floatingActionButton;
 
-  const KantScaffold(
-      {this.appBar,
-      this.onRefresh,
-      this.backgroundColor,
-      this.resizeToAvoidBottomInset,
-      this.isLoading,
-      this.bottomNavigationBar,
-      this.bottomSheet,
-      this.body,
-      super.key});
+  const KantScaffold({
+    this.appBar,
+    this.onRefresh,
+    this.backgroundColor,
+    this.resizeToAvoidBottomInset,
+    this.isLoading,
+    this.bottomNavigationBar,
+    this.bottomSheet,
+    this.body,
+    this.floatingActionButton,
+    super.key,
+  });
 
   @override
   State<StatefulWidget> createState() => _State();
@@ -45,6 +48,7 @@ class _State extends State<KantScaffold> {
       appBar: widget.appBar,
       body: widget.body,
       bottomNavigationBar: widget.bottomNavigationBar,
+      floatingActionButton: widget.floatingActionButton,
     );
   }
 }
